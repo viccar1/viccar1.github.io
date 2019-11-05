@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>body{background-color:rgb(188, 191, 245);}
+               h1{color:red}
+               h2{color:red}
+
+
+
+              #img{position:absolute;
+                       float:left;
+                       top:200px;
+                       left:-100px;
+                       z-index:1;
+                       border:10px solid black;}
+               
+            #text{position:absolute;
+                top:200px;
+                left:800px;
+                z-index:2;}
+
+            #fot{position:center;}
+#info{position:left;
+float:left;
+top:100px;
+left:300px;
+z-index:3;}
+                
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1><center>Invitación a un taller</h1>
+        <h2><center>Taller de crear invitaciones para talleres </h2>
+<div id="info">
+        <p><strong>Director:Fernando Garcia</p>
+        <p>Telefono:13456353</p>
+        <p>Comite de talleres online</p>
+        <p>Asociacion por los talleres</p></strong>
+<img id="fot" src="https://impliquo.com/wp-content/uploads/2016/03/Bot%C3%B3n-talleres-Online.png" width="120">
+
+<div id="text">
+        <h3>Detalles:</h3>
+        <ul>
+        <li><strong>Calle Inventada numero 12,Valencia
+            <li>10/01/2020 al 20/04/2020</li>
+            <li>De 10:30 a 13:30 y 15:00 a 17:00.
+            <li>De Lunes a Jueves.</strong>
+        </ul>
+        <strong>Aprenderas a realizar invitaciones a talleres.</strong>
+<img id="img" src="https://image.slidesharecdn.com/invitacintaller-140922095027-phpapp01/95/invitacin-taller-mejorando-estructuras-partidarias-1-638.jpg?cb=1411379457" width="500">
+
+<button id="bot" type="buton" onclick=alert("Se_ha_unido_correctamente")>Confirmar </button>
+
+    </body>
+</html>
